@@ -9,6 +9,7 @@ public class ArrayListDemo {
 		// TODO Auto-generated method stub
 List<String> list= new ArrayList<String>();
 list.add("laptop");
+list.add("mobile");
 System.out.println(list);
 	}
 
