@@ -1,7 +1,9 @@
 package com.git;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 public class HashMapDemo {
 	
@@ -23,6 +25,13 @@ public class HashMapDemo {
 		}
 		
 		//traverse map
+		Set<Integer> k1=map.keySet();
+		Iterator itr=k1.iterator();
+		for(Integer i:k1) {
+			int key=(int) itr.next();
+			System.out.println(key);
+			System.out.println(map.get(key));
+		}
 	
 		map.forEach((k,v)->System.out.println(k+" occures "+v+" times"));
 		
