@@ -1,0 +1,4 @@
+public class DemoNew{
+
+System.out.println("yhis is demonew class");
+}
