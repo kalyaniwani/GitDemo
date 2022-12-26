@@ -23,6 +23,7 @@ public class HashMapDemo {
 		}
 		
 		//traverse map
+		System.out.println(map);
 	
 		map.forEach((k,v)->System.out.println(k+" occures "+v+" times"));
 		
